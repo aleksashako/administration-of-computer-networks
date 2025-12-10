@@ -8,6 +8,6 @@
 
 ## Лабораторная работа №1
 
-## Лабораторная работа №2
+## [Лабораторная работа №2](https://github.com/aleksashako/administration-of-computer-networks/tree/lab2/lab2) 
 
 ## Лабораторная работа №3
