@@ -1,0 +1,19 @@
+#SPDX-License-Identifier: MIT-0
+---
+# vars file for caddy_deploy
+
+domain_name: btqqq.duckdns.org
+file_root: "/var/www/html"
+
+log:
+  file: /var/log/caddy/caddy_access.log
+  level: "info"
+  
+
+security_headers:
+  Strict_Transport_Security: "max-age=31536000; includeSubDomains; preload"
+  X_Content_Type_Options: "nosniff"
+  X_Frame_Options: "DENY"
+  Referrer_Policy: "strict-origin-when-cross-origin"
+
+custom_server_header: "BTQ Server"
